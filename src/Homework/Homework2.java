@@ -27,7 +27,7 @@ public class Homework2 {
 			int count = 0;
 			for (int j = 2; j < i; j++) {
 				if (i % j == 0) {
-					count++;
+					count++; // j=1, j<=i 가 되면 break로 빠져나가면 안되므로 끝까지 다 연산해야됌
 					break;
 				}
 			}*/
