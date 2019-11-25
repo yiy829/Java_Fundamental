@@ -17,11 +17,20 @@ public class Homework2 {
 		for (char ch3 : ch2) {
 			System.out.println(ch3);
 		}
+		
 
 		
 		// 2. 1-100까지 소수구하기
 		System.out.println("(2) 1-100까지 소수를 구하시오. "); 
-
+		
+		/*for (int i = 2; i <= 100; i++) {
+			int count = 0;
+			for (int j = 2; j < i; j++) {
+				if (i % j == 0) {
+					count++;
+					break;
+				}
+			}*/
 
 		for (int i = 2; i <= 100; i++) {
 			boolean isPrime = true;
