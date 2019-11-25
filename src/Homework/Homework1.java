@@ -42,7 +42,7 @@ public class Homework1 {
 			for (int j = 2; j < i; j++) {
 				if (i % j == 0) {
 					i++;
-					break;
+					break; // 바로 빠져버림
 				}
 			}
 			System.out.println(i);
