@@ -4,7 +4,7 @@ public class CallByRefDemo {
 	public static void change(int i, int[]	j) {
 		i = 20;
 		j[3] = 400;
-	} //연습
+	}
 	public static void main(String[] args) {
 		int a = 10;
 		int b[]	= {1,2,3,4};
