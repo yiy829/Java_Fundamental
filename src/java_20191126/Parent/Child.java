@@ -1,4 +1,4 @@
-package java_20191126;
+package java_20191126.Parent;
 
 public class Child extends Parent{
 	double height = 170.23;

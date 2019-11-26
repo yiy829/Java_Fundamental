@@ -1,4 +1,4 @@
-package java_20191126;
+package java_20191126.Sub;
 
 public class Sub extends Super {
 	// 같은 패키지 있었을 때, 부모에 있는 private 패키지는 상속이 안된다.

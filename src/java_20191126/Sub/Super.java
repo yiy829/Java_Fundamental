@@ -1,4 +1,4 @@
-package java_20191126;
+package java_20191126.Sub;
 import java.lang.*; // 생략 되어있음
 public class Super extends Object { 
 	// extends Object 생략되어있음. 항상 최상위 object = Object

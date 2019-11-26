@@ -1,4 +1,4 @@
-package java_20191126;
+package java_20191126.Sub;
 import java.lang.*; //항상 숨겨져 있다.
 public class SubDemo extends Object{
 	public SubDemo() {

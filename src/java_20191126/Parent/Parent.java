@@ -1,4 +1,4 @@
-package java_20191126;
+package java_20191126.Parent;
 
 public class Parent {
 	int age = 50;

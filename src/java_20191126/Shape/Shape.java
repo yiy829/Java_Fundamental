@@ -1,4 +1,4 @@
-package java_20191126;
+package java_20191126.Shape;
 
 public abstract class Shape {
 	int x,y;
