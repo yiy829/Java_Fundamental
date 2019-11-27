@@ -31,6 +31,7 @@ public class WrapperDemo {
 		
 		//문자열을 int로 바꿀 때 사용
 		int d = Integer.parseInt("100");
+		System.out.println(d);
 		
 	}
 }
