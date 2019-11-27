@@ -1,4 +1,4 @@
-package java_20191127;
+package java_20191127.step1;
 //1. 요구사항 : 밀리 세컨으로 시간을 측정할 수 있는 애플리케이션을 만들어주세요
 public class FootStopWatch {
 	long startTime;
