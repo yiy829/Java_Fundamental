@@ -63,7 +63,7 @@ public class MemberManagementDemo {
 	//5. 번호를 선택하세요> 메시지를 출력한 후 키보드 입력을 받게 대기 한다.
 	//6. 번호를 입력받으면 run()메서드를 호출한다.
 	public void update(){
-			
+
 	}
 	
 	
