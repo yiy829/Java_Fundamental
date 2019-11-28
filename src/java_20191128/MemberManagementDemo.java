@@ -44,7 +44,7 @@ public class MemberManagementDemo {
 		for(Member p : list){
 			if(p.getId().equals(id)){
 				System.out.println(p);
-				continue;
+				break;
 			}else{
 			System.out.println("검색된 결과가 없습니다.");
 			}
@@ -66,8 +66,8 @@ public class MemberManagementDemo {
 		for(Member p : list){
 			if(p.getId().equals(id)){
 				list.remove(p);
-				System.out.println(p.toString());
 				System.out.println("성공적으로 삭제되었습니다.");
+				System.out.println(list);
 				break;
 			}else{
 				System.out.println("삭제할 아이디가 없습니다.");
@@ -92,9 +92,9 @@ public class MemberManagementDemo {
 		for(Member p : list){
 			if(p.getId().equals(id)){
 				p.setId(modifyId);
-				System.out.println(p.toString());
 				System.out.println("성공적으로 수정되었습니다.");
-				
+				System.out.println(list);
+				break;
 			}else{
 			System.out.println("수정할 아이디가 없습니다.");
 			}
@@ -113,23 +113,17 @@ public class MemberManagementDemo {
 	//5. 번호를 선택하세요> 메시지를 출력한 후 키보드 입력을 받게 대기 한다.
 	//6. 번호를 입력받으면 run()메서드를 호출한다.
 	public void insert(){
-		String id = console("아이디>");
-		String name = console("이름>");
-		
-		Member m = new Member(id,name);
-		list.add(m);
-		
-		System.out.printf("총 회원은 %d명 입니다.%n", list.size());
-		System.out.print(list.toString());
-		print();
-		String index = console("번호를 선택하세요>");
-		run(index);
-	}
-
-	
-	
-	
-	
+			String id = console("아이디>");
+			String name = console("이름>");
+			Member m = new Member(id, name);
+			list.add(m);
+			//id가 중첩되는 것을 확인하였으나 (for문이나 다른 저장소를 생성해야 한다고 생각)체력고갈로..죄송합니다..
+			
+			System.out.printf("총 회원은 %d명 입니다.%n", list.size());
+			print();
+			String index = console("번호를 선택하세요>");
+			run(index);
+		}
 	
 	
 	public static void main(String[] args) {
