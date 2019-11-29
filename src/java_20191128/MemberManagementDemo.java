@@ -67,7 +67,9 @@ public class MemberManagementDemo {
 			if(p.getId().equals(id)){
 				list.remove(p);
 				System.out.println("성공적으로 삭제되었습니다.");
-				System.out.println(list);
+				for (Member mem : list) {
+					System.out.println(mem);
+				}
 				break;
 			}else{
 				System.out.println("삭제할 아이디가 없습니다.");
@@ -93,7 +95,9 @@ public class MemberManagementDemo {
 			if(p.getId().equals(id)){
 				p.setId(modifyId);
 				System.out.println("성공적으로 수정되었습니다.");
-				System.out.println(list);
+				for (Member mem : list) {
+					System.out.println(mem);
+				}
 				break;
 			}else{
 			System.out.println("수정할 아이디가 없습니다.");
@@ -118,7 +122,9 @@ public class MemberManagementDemo {
 			Member m = new Member(id, name);
 			list.add(m);
 			//id가 중첩되는 것을 확인하였으나 (for문이나 다른 저장소를 생성해야 한다고 생각)체력고갈로..죄송합니다..
-			
+			for (Member mem : list) {
+				System.out.println(mem);
+			}
 			System.out.printf("총 회원은 %d명 입니다.%n", list.size());
 			print();
 			String index = console("번호를 선택하세요>");
