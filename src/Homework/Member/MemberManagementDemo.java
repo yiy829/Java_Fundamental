@@ -1,4 +1,4 @@
-package Homework;
+package Homework.Member;
 
 import java.util.ArrayList;
 import java.util.Scanner;

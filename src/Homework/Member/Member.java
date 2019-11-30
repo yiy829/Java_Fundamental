@@ -1,4 +1,4 @@
-package Homework;
+package Homework.Member;
 
 public class Member {
 	private String id;
