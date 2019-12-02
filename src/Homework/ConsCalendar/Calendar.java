@@ -259,7 +259,6 @@ public class Calendar {
 	public static void real() {
 		SimpleDateFormat format = new SimpleDateFormat("yyyy");
 		SimpleDateFormat format2 = new SimpleDateFormat("MM");
-
 		String format_year = format.format(System.currentTimeMillis());
 		String format_Month = format2.format(System.currentTimeMillis());
 		int realY = Integer.parseInt(format_year);
