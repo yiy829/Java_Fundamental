@@ -1,4 +1,4 @@
-package java_20191203;
+package java_20191203.CrawlingThread;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -62,7 +62,7 @@ public class CrawlingThread extends Thread {
 					String cap = trElement.child(6).text();
 					String format = String.format("%s\t%s\t%s\t%s\t%s\t%s\t%s%n", date, open, high, low, close, volume,
 							cap); // 이게 readline과 같다.
-					pw.print(format); // 모니터 춮펵
+					pw.print(format); // 모니터 출력
 
 				}
 			} catch (IOException e) {

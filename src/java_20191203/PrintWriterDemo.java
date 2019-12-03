@@ -11,8 +11,8 @@ import java.io.PrintWriter;
 public class PrintWriterDemo {
 	public static void main(String[] args) {
 		FileReader fr = null;
-		FileWriter fw = null;
 		BufferedReader br = null;
+		FileWriter fw = null;
 		BufferedWriter bw = null;
 		PrintWriter	pw = null;
 		try {

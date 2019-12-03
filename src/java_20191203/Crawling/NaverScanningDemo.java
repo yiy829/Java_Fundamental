@@ -1,4 +1,4 @@
-package java_20191203;
+package java_20191203.Crawling;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,8 +12,8 @@ import java.net.URL;
 public class NaverScanningDemo {
 	public static void main(String[] args) throws IOException {
 		URL url = new URL("https://www.naver.com/"); //소스보기한 것을 들여온다.
-		InputStream in = url.openStream(); // url을 inputstream으로 입력(1바이트 =>
-											// 2바이트)
+		InputStream in = url.openStream(); // url을 inputstream으로 입력(1바이트 =>2바이트)
+											
 
 		// 1. InputStream을 InputStreamReader로 스트링체이닝한다.
 		InputStreamReader ir = null;
@@ -26,7 +26,7 @@ public class NaverScanningDemo {
 		// 2. InputStreamReader를 BufferedReader로 스트림체이닝한다.
 		br = new BufferedReader(ir);
 		// 3. BufferedReader로 읽은 정보(HTML)를 C:\\dev\\io\\2019\\12\\naver.html 파일로 저장한다
-		fw = new FileWriter("C:\\dev\\io\\2019\\12\\naver.html");
+		fw = new FileWriter("C:\\Users\\yiy82\\git\\io\\naver.html");
 		bw = new BufferedWriter(fw);
 		pw = new PrintWriter(bw, true);
 		

@@ -1,4 +1,4 @@
-package java_20191203;
+package java_20191203.Crawling;
 
 import java.io.IOException;
 
@@ -11,17 +11,16 @@ public class CrawlingDemo2 {
 	public static void main(String[] args) {
 		String url = "https://sports.news.naver.com/index.nhn";
 		//HTML 문서 전체를 관리하기 위한 객체
-		Document doc = null; //jsoup으로 import
 		Document doc2 = null;
 		try {
-			doc = Jsoup.connect(url).get();
+			doc2 = Jsoup.connect(url).get();
 			System.out.println("성공");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
-		Elements elements =  doc.select("#news_category_contents_2_0"); //#은 아이디로 가져올때 사용 
+		Elements elements =  doc2.select("#news_category_contents_2_0"); //#은 아이디로 가져올때 사용 
 		Elements liElements = elements.select("ul li"); 
 		
 		for(int i = 0; i < liElements.size(); i++){

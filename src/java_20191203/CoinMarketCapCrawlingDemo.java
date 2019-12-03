@@ -49,7 +49,7 @@ public class CoinMarketCapCrawlingDemo {
 				String format = String.format("%s\t%s\t%s\t%s\t%s\t%s\t%s%n", date, open, high, low, close, volume,
 						cap); //이게 readline과 같다.
 				System.out.print(format); 
-				pw.print(format); // 모니터 춮펵 
+				pw.print(format); // 파일 출력 
 			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

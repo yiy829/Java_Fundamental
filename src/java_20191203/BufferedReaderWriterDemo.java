@@ -22,7 +22,7 @@ public class BufferedReaderWriterDemo {
 			
 			String readLine = null;
 			while ((readLine = br.readLine()) != null) {
-				bw.write(readLine); // 한줄로 읽었을 때 개행이 포함되지 않는다.
+				bw.write(readLine); // 읽었을 때 개행이 포함되지 않는다.
 				bw.newLine(); // 개행 추가해야됌
 			}
 			
