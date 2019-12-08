@@ -62,6 +62,6 @@ public class EchoClient {
 		}
 	}
 	public static void main(String[] args) {
-		new EchoClient("192.168.0.107",3000).run();
+		new EchoClient("192.168.0.203",3000).run();
 	}
 }
