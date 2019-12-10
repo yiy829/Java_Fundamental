@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class jdbcDemo {
+public class JdbcDemo {
 	public static void main(String[] args) {
 		try {
 			//1. org.mariadb.jdbc.Driver 클래스를 메모리에 로딩한다.

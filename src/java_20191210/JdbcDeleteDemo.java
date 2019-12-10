@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class jdbcDeleteDemo {
+public class JdbcDeleteDemo {
 	public static void main(String[] args) {
 		try {
 			Class.forName("org.mariadb.jdbc.Driver");
