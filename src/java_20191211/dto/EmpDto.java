@@ -1,19 +1,19 @@
-package java_20191210.dto;
+package java_20191211.dto;
 
 public class EmpDto {
 	private int no;
 	private String name;
 	private String job;
 	private int mgr;
-	private int hiredate;
-	private int sal;
-	private int comm;
-	private int detpno;
+	private String hiredate;
+	private double sal;
+	private double comm;
+	private int deptNo;
 	public EmpDto() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public EmpDto(int no, String name, String job, int mgr, int hiredate, int sal, int comm, int detpno) {
+	public EmpDto(int no, String name, String job, int mgr, String hiredate, double sal, double comm, int deptNo) {
 		super();
 		this.no = no;
 		this.name = name;
@@ -22,7 +22,7 @@ public class EmpDto {
 		this.hiredate = hiredate;
 		this.sal = sal;
 		this.comm = comm;
-		this.detpno = detpno;
+		this.deptNo = deptNo;
 	}
 	public int getNo() {
 		return no;
@@ -48,29 +48,29 @@ public class EmpDto {
 	public void setMgr(int mgr) {
 		this.mgr = mgr;
 	}
-	public int getHiredate() {
+	public String getHiredate() {
 		return hiredate;
 	}
-	public void setHiredate(int hiredate) {
+	public void setHiredate(String hiredate) {
 		this.hiredate = hiredate;
 	}
-	public int getSal() {
+	public double getSal() {
 		return sal;
 	}
-	public void setSal(int sal) {
+	public void setSal(double sal) {
 		this.sal = sal;
 	}
-	public int getComm() {
+	public double getComm() {
 		return comm;
 	}
-	public void setComm(int comm) {
+	public void setComm(double comm) {
 		this.comm = comm;
 	}
-	public int getDetpno() {
-		return detpno;
+	public int getDeptNo() {
+		return deptNo;
 	}
-	public void setDetpno(int detpno) {
-		this.detpno = detpno;
+	public void setDeptNo(int deptNo) {
+		this.deptNo = deptNo;
 	}
 	
-} 
+}
