@@ -9,7 +9,6 @@ public class WhileDemo {
 			i++;
 		}
 		System.out.printf("1부터 100까지 합은 %,d 입니다.", sum); // %,d는 3자리 단위로 ,를 찍어줌
-
 		
 		//While문으로 구구단
 		int first = 2;

@@ -26,6 +26,7 @@ public class WrapperDemo {
 		
 		int b = i3 + i4; // auto-unboxing
 		
+		//int를 문자열로 바꿀때 사용 
 		String str = "" + 10; // 저급한 방법..
 		String str2 = String.valueOf(10); // 우아한 방법
 		

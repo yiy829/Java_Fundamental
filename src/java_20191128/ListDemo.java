@@ -15,7 +15,7 @@ public class ListDemo {
 			System.out.println(temp);
 		}
 		
-		//모두 삭제 => list.remove(int idex) 사용해서
+		//모두 삭제 => list.remove(int index) 사용해서
 		/*for (int i = 0; i < list.size(); i++) {
 			list.remove(0);	
 		}   // 내 생각
