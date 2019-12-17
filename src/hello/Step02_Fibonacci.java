@@ -8,8 +8,6 @@ public class Step02_Fibonacci {
       // 피보나치 수열은 현재값과 다음항의 값의 합이 다다음항의 값이 되는 것입니다.
       // ex> 1 1 2 3 5 8 ...
       // 1항과 2항은 각각 1로 넣어주세요
-      array[0] = 1;
-      array[1] = 1;
       
      for (int i = 0; i < array.length; i++) {
     	 if(i<=1){
